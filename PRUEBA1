@@ -5,7 +5,9 @@ import { Button } from "@/components/ui/button";
 const products = [
   { id: 1, name: "Miel Pura", price: 2500, image: "/miel.jpg" },
   { id: 2, name: "Huevos de Campo (docena)", price: 1800, image: "/huevos.jpg" },
-  { id: 3, name: "Queso Casero", price: 3500, image: "/queso.jpg" }
+  { id: 3, name: "Queso Casero", price: 3500, image: "/queso.jpg" },
+  { id: 4, name: "Pollo Casero (kg)", price: 4000, image: "/pollo.jpg" },
+  { id: 5, name: "Pollo Casero Trozado (kg)", price: 4500, image: "/pollo_trozado.jpg" }
 ];
 
 export default function ChacraStore() {
